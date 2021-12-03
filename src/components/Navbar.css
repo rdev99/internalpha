@@ -1,0 +1,17 @@
+.link {
+    text-decoration: none;
+    color:white;
+}
+.navlinks {
+    display: flex;
+    flex-grow: 1;
+}
+.navlinks2 {
+    display: flex;
+}
+.bttn {
+    color: white;
+}
+.logo {
+    flex-grow: 1;
+}
