@@ -1,4 +1,4 @@
-import { AppBar,Toolbar,CssBaseline,Typography,Button } from "@material-ui/core";
+import { AppBar,Toolbar,Typography,Button } from "@mui/material";
 import { Link } from "react-router-dom";
 import './Navbar.css';
 
@@ -7,31 +7,22 @@ function Navbar() {
     return (
         <>
             <AppBar position="static">
-            <CssBaseline />
-            <Toolbar>
+            <Toolbar className="">
                 <Typography variant="h4" className="logo">
                     Navbar
                 </Typography>
                 <div className="navlinks">
-                    <Link to="/" className="link">
-                        <Button>Home</Button>
-                    </Link>
-                    <Link to="/a" className="link">
-                        <Button>A</Button>
-                    </Link>
-                    <Link to="/b" className="link">
-                        <Button>B</Button>
-                    </Link>
-                    <Link to="/c" className="link">
-                        <Button className="bttn">C</Button>
-                    </Link>
+                    <ul>
+                        <li className="list-items">Alice</li>
+                        <li className="list-items">B</li>
+                    </ul>
                 </div>
                 <div className="navlinks2">
                     <Link to="/b" className="link">
-                        <Button>Login</Button>
+                        <Button className="bttn">Login</Button>
                     </Link>
                     <Link to="/c" className="link">
-                        <Button>SignUp</Button>
+                        <Button className="bttn">Register</Button>
                     </Link>
                 </div>
             </Toolbar>

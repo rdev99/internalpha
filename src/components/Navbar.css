@@ -1,17 +1,32 @@
 .link {
     text-decoration: none;
-    color:white;
 }
 .navlinks {
-    display: flex;
     flex-grow: 1;
 }
 .navlinks2 {
     display: flex;
 }
 .bttn {
-    color: white;
+    color: white !important;
+    height: 100% !important;
+    
+}
+.bttn:hover {
+    color: yellow !important;
 }
 .logo {
     flex-grow: 1;
+}
+.list-items {
+    display: inline;
+    height: 100%;
+    padding-top: 1.4em;
+    padding-bottom: 1.2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    cursor: pointer;
+}
+.list-items:hover {
+    border-bottom: 5px solid red;
 }
