@@ -2,9 +2,8 @@ import './Carousel.css';
 
 
 import Carousel from 'react-material-ui-carousel'
-import { Paper, Button } from '@mui/material'
 
-function Example(props)
+function Carousel1(props)
 {
     var images = [
         {
@@ -35,4 +34,4 @@ function Example(props)
 }
 
 
-export default Example;
+export default Carousel1;

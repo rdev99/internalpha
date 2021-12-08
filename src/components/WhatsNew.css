@@ -1,0 +1,9 @@
+.box {
+    margin-top: 30px;
+    margin-left: 10px;
+    display: inline-block;
+    background-color: rgba(107, 107, 190, 0.699);
+    height: 30rem;
+    width: 24%;
+    border-radius: 3px;
+}
