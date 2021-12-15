@@ -1,8 +1,12 @@
 import './CardDesign.css';
+import { Card } from '@mui/material';
 
-function CardDesign() {
+function CardDesign(props) {
     return(
         <>
+            <Card className="card">
+                
+            </Card>
         </>
     )
 }
