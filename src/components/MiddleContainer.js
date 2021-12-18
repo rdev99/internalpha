@@ -1,4 +1,4 @@
-import './MiddleContainer.css';
+import '../styles/MiddleContainer.css';
 import Carousel from './Carousel';
 import WhatsNew from './WhatsNew';
 

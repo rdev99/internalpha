@@ -1,4 +1,4 @@
-import './Carousel.css';
+import '../styles/Carousel.css';
 
 
 import Carousel from 'react-material-ui-carousel'

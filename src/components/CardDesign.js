@@ -1,4 +1,4 @@
-import './CardDesign.css';
+import '../styles/CardDesign.css';
 import { Card } from '@mui/material';
 
 function CardDesign(props) {

@@ -1,4 +1,4 @@
-import './Footer.css';
+import '../styles/Footer.css';
 import { AppBar,Container,Toolbar,Typography } from '@mui/material';
 
 function Footer() {

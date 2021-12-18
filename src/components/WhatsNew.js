@@ -1,4 +1,4 @@
-import './WhatsNew.css';
+import '../styles/WhatsNew.css';
 import { Box } from '@mui/material';
 
 function WhatsNew() {
