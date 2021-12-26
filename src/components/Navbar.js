@@ -28,7 +28,7 @@ function Navbar() {
                         <div className="dropdown">
                         <div className="list-items">Register</div>
                             <div className="dropdown-content">
-                                <Link to="/registerstudent1" className="dropdown-content-list">Register as a Student</Link>
+                                <Link to="/registerstudent" className="dropdown-content-list">Register as a Student</Link>
                                 <Link to="/registerteacher" className="dropdown-content-list">Register as a Teacher</Link>
                             </div>
                         </div>

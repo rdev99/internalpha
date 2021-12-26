@@ -4,3 +4,9 @@ input[type=date]:required:invalid::-webkit-datetime-edit {
 input[type=date]:focus::-webkit-datetime-edit {
     color: black !important;
 }
+
+.errmsg {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: red;
+}
