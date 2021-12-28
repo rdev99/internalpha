@@ -1,6 +1,7 @@
 input[type=date]:required:invalid::-webkit-datetime-edit {
     color: transparent;
 }
+
 input[type=date]:focus::-webkit-datetime-edit {
     color: black !important;
 }
@@ -9,4 +10,8 @@ input[type=date]:focus::-webkit-datetime-edit {
     margin-top: 1rem;
     margin-left: 1rem;
     color: red;
+}
+
+.academic {
+    margin-top: 4rem !important;
 }
